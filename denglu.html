@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+        <!--onclick事件弹出登录-->
+    <p id="up">Hi~请登录</p>
+    <!-- 显示用户名 -->
+    <div class="username"></div>
+    </div>
+    <div class="dowebok">
+        <!-- 表单 -->
+        <form class="loginarea">
+            <div class="form-item">账号：
+                <input class="input" type="text" autocomplete="off" placeholder="用户名">
+            </div>
+            <div class="form-item">密码：
+                <input  class="input" id="password" type="password" autocomplete="off" placeholder="******">
+            </div>
+            <div id="md">
+                <input type="checkbox" id="mdl">7天免登录
+            </div>
+            <div class="form-item">
+                <button id="submit">登 录</button>
+            </div>
+            <div class="reg-bar">
+                <a class="reg">立即注册</a>
+                <a class="forget">忘记密码</a>
+            </div>
+        </form>
+    </div>
+<script src="js/login.js"></script>
+</body>
+</html>

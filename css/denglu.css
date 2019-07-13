@@ -1,0 +1,14 @@
+* {
+            padding: 0;
+            margin: 0;
+}
+.logo p {
+    cursor: pointer;
+    color: #000;
+
+        }
+.dowebok {
+    position: absolute;
+    border: solid 1px #d40000;
+    border-radius: 10%;
+}
